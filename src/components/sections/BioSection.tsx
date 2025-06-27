@@ -12,7 +12,7 @@ const BioSection = () => {
               Meet the Owner
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Hi, I'm John Smith, founder and owner of Zero Fox Garage Door. With over 15 years of experience in the garage door industry, I started this company with a simple mission: to provide honest, reliable, and affordable garage door services to homeowners and businesses in the Phoenix area.
+              Hi, I’m Emiliano, the proud owner of Zero Fox Garage Door. With over 15 years of experience in the garage door industry, I started this company with a simple mission: to provide honest, reliable, and affordable garage door services to homeowners and businesses in the Phoenix area.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               I believe in doing the job right the first time, using quality parts, and treating every customer like family. When you call Zero Fox Garage Door, you're not just getting a service – you're getting a partner who cares about your satisfaction and safety.
@@ -20,7 +20,7 @@ const BioSection = () => {
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Our team is fully licensed, insured, and committed to continuing education to stay current with the latest garage door technologies and safety standards. We're proud to serve our community and look forward to helping you with all your garage door needs.
             </p>
-            
+
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
