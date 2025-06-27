@@ -30,14 +30,14 @@ const HeroSection = () => {
 
             {/* Trust Indicators */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-              <div className="bg-white p-4 rounded-lg shadow-sm">
+              {/* <div className="bg-white p-4 rounded-lg shadow-sm">
                 <div className="text-2xl font-bold text-blue-600 mb-1">24/7</div>
                 <div className="text-sm text-gray-600">Emergency Service</div>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-sm">
                 <div className="text-2xl font-bold text-blue-600 mb-1">15+</div>
                 <div className="text-sm text-gray-600">Years of Experience</div>
-              </div>
+              </div> */}
               <div className="bg-white p-4 rounded-lg shadow-sm">
                 <div className="text-2xl font-bold text-blue-600 mb-1">1000+</div>
                 <div className="text-sm text-gray-600">Happy Customers</div>
