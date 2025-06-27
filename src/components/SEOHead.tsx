@@ -16,14 +16,14 @@ const SEOHead = () => {
       <meta property="og:url" content="https://garagedoorglide.com/" />
       <meta property="og:title" content="Garage Door Glide Showcase - Professional Garage Door Services" />
       <meta property="og:description" content="Professional garage door repair, installation, and maintenance services. Fast, reliable, and affordable solutions for all your garage door needs." />
-      <meta property="og:image" content="/lovable-uploads/hero.png" />
+      <meta property="og:image" content="/assets/hero.png" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://garagedoorglide.com/" />
       <meta property="twitter:title" content="Garage Door Glide Showcase - Professional Garage Door Services" />
       <meta property="twitter:description" content="Professional garage door repair, installation, and maintenance services. Fast, reliable, and affordable solutions for all your garage door needs." />
-      <meta property="twitter:image" content="/lovable-uploads/hero.png" />
+      <meta property="twitter:image" content="/assets/hero.png" />
 
       {/* Structured Data */}
       <script type="application/ld+json">

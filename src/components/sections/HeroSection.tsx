@@ -53,7 +53,7 @@ const HeroSection = () => {
           <div className="animate-slide-right">
             <div className="relative">
               <img
-                src="/lovable-uploads/hero.png"
+                src="/assets/hero.png"
                 alt="Professional garage door technician with tools"
                 className="w-full h-auto rounded-lg shadow-xl"
               />

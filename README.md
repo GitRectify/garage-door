@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# Garage Door Business - Responsive Scroll-Animated Landing Page
 
-## Project info
+## 🚪 Project Overview
 
-**URL**: https://lovable.dev/projects/cf3a9e07-5e18-4897-b686-1f2abd07812a
+This is a fully responsive, static HTML landing page for a garage door services business based in Arizona. It is built based on finalized Figma designs (desktop and mobile) and uses scroll-triggered animations to enhance user engagement and trust. The page is optimized for smooth interaction, clean layout, and readiness for hosting on platforms like GoDaddy.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📦 Files & Structure
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/cf3a9e07-5e18-4897-b686-1f2abd07812a) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+/project-root/
+├── public/
+│   └── assets/         # Image assets (hero, FAQ, etc.)
+├── src/
+│   ├── components/
+│   │   ├── sections/            # Page sections like Hero, FAQ, Testimonials
+│   │   ├── ui/                  # ShadCN UI components (buttons, dialogs, etc.)
+│   │   ├── Footer.tsx
+│   │   └── SEOHead.tsx
+│   ├── hooks/                   # Custom React hooks
+│   ├── lib/                     # Utilities (e.g., formatting functions)
+│   ├── pages/
+│   │   ├── Index.tsx            # Main homepage
+│   │   └── NotFound.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── styles (css files)
+├── config files (tailwind, tsconfig, vite, eslint, etc.)
+├── README.md
+└── package.json
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ✨ Features
 
-**Use GitHub Codespaces**
+* Fully responsive – Mobile-first design with fluid layout adapting to all screen sizes
+* Scroll-based animations – Smooth GSAP animations triggered by scroll (hero, services, testimonials, etc.)
+* Non-functional contact form – Placeholder form ready for integration with Jobber, Formspree, or similar services
+* Clean, semantic HTML – Structured with accessibility and SEO best practices in mind
+* Performance optimized – Lightweight assets and animations that prioritize speed
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🛠 Tech Stack
 
-This project is built with:
+* HTML5
+* CSS3 (Flexbox & Grid)
+* JavaScript (ES6)
+* GSAP (GreenSock Animation Platform) for scroll-triggered animations
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## ⚙️ How to Use
 
-Simply open [Lovable](https://lovable.dev/projects/cf3a9e07-5e18-4897-b686-1f2abd07812a) and click on Share -> Publish.
+1. Clone or download this project.
+2. Customize content or imagery if needed by editing `index.html` and relevant assets.
+3. Deploy by uploading the contents of the project directory to your GoDaddy (or any other) hosting platform via cPanel or FTP.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📱 Responsive Design Approach
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* Mobile-first styling using media queries
+* Touch-friendly buttons and form inputs
+* Optimized layout spacing consistent with Figma design
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 🧠 Animation Strategy
+
+Scroll-triggered animations are implemented with **GSAP + ScrollTrigger**:
+
+* Hero section fades in with parallax motion
+* Services and “Why Choose Us” sections animate in on scroll
+* Testimonials and FAQs feature staggered fade-up effects
+* Smooth ease-in-out transitions for all motion
+* All animations are performance-friendly and degrade gracefully on older devices
+
+---
+
+## 📤 Contact Form
+
+The form currently uses static HTML with basic input validation. To activate:
+
+* For **Formspree**: Add the Formspree endpoint in the `<form>` `action` attribute.
+* For **Jobber**: Replace the form block with the Jobber form embed code.
+
+---
+
+## ✅ SEO & Accessibility
+
+* Meta tags for description and viewport
+* Semantic tags (`<section>`, `<article>`, `<header>`, `<footer>`)
+* Alt text on all images
+* ARIA attributes where applicable
+
+---
+
+## 📧 Support
+
+For questions or minor updates, please contact the developer or refer to the original Figma file for layout integrity.
+
+---
+
+## 📝 License
+
+This project is for the exclusive use of the garage door business and should not be redistributed or repurposed without permission.
+
+---
