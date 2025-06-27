@@ -10,14 +10,14 @@ const HeroSection = () => {
           {/* Hero Content */}
           <div className="animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Your Garage Door Problem, 
+              Your Garage Door Problem,
               <span className="text-blue-600"> Fixed Fast</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-              Professional garage door repair, installation, and maintenance services. 
+              Professional garage door repair, installation, and maintenance services.
               We provide fast, reliable solutions to keep your garage door running smoothly.
             </p>
-            
+
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg">
@@ -52,8 +52,8 @@ const HeroSection = () => {
           {/* Hero Image */}
           <div className="animate-slide-right">
             <div className="relative">
-              <img 
-                src="/lovable-uploads/3faaad22-9f07-4a0a-923c-bebc0701b7c2.png" 
+              <img
+                src="/lovable-uploads/3faaad22-9f07-4a0a-923c-bebc0701b7c2.png"
                 alt="Professional garage door technician with tools"
                 className="w-full h-auto rounded-lg shadow-xl"
               />
