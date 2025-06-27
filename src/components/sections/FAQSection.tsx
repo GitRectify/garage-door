@@ -38,8 +38,8 @@ const FAQSection = () => {
           {/* Image */}
           <div className="animate-slide-left">
             <div className="relative">
-              <img 
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop"
+              <img
+                src="/lovable-uploads/FAQ.png"
                 alt="Garage door technician working on repairs"
                 className="w-full h-80 object-cover rounded-lg shadow-lg"
               />

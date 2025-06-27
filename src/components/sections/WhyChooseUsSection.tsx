@@ -10,7 +10,7 @@ const WhyChooseUsSection = () => {
           <div className="animate-slide-left">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1581092918484-8313cea04ec5?w=600&h=400&fit=crop"
+                src="/lovable-uploads/why.png"
                 alt="Garage door technician working professionally"
                 className="w-full h-80 object-cover rounded-lg"
               />

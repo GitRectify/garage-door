@@ -45,7 +45,7 @@ const BioSection = () => {
           <div className="animate-slide-right">
             <div className="relative">
               <img 
-                src="https://drive.google.com/file/d/1QMjwvfL7y_aqA-zxN34M7LIRGv1qiJEa/view?usp=sharing"
+                src="/lovable-uploads/owner.png"
                 alt="Hi, I'm Emiliano, the proud owner of Zero Fox Garage Door."
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
