@@ -6,29 +6,29 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "How often should I have my garage door serviced?",
+      question: "What types of garage door issues do you fix?",
       answer: "We recommend having your garage door professionally serviced at least once a year to ensure optimal performance and safety. Regular maintenance can prevent costly repairs and extend the life of your door."
     },
     {
-      question: "What are the signs that my garage door needs repair?",
+      question: "Are you licensed and insured?",
       answer: "Common signs include unusual noises, slow or jerky movement, door not opening or closing completely, visible wear on cables or springs, and the door becoming heavy to lift manually."
     },
     {
-      question: "How long does a garage door installation take?",
+      question: "How much does a typical repair cost?",
       answer: "A typical residential garage door installation takes 3-5 hours, depending on the complexity of the job and whether additional electrical work is needed for the opener."
     },
     {
-      question: "Do you offer emergency services?",
+      question: "Can you install new garage doors too?",
       answer: "Yes, we provide 24/7 emergency garage door repair services. We understand that garage door problems can happen at any time and we're here to help when you need us most."
     },
     {
-      question: "What brands of garage doors do you work with?",
+      question: "Do you offer emergency repair services?",
       answer: "We work with all major garage door brands including Clopay, Wayne Dalton, Amarr, Chi, and many others. Our technicians are trained to service both residential and commercial doors."
     },
-    {
-      question: "How much does garage door repair typically cost?",
-      answer: "Repair costs vary depending on the issue, but we always provide upfront, transparent pricing. Minor repairs can start around $150, while major repairs may cost $300-600. We'll always give you a quote before starting work."
-    }
+    // {
+    //   question: "How much does garage door repair typically cost?",
+    //   answer: "Repair costs vary depending on the issue, but we always provide upfront, transparent pricing. Minor repairs can start around $150, while major repairs may cost $300-600. We'll always give you a quote before starting work."
+    // }
   ];
 
   return (
@@ -41,7 +41,7 @@ const FAQSection = () => {
               <img
                 src="/lovable-uploads/FAQ.png"
                 alt="Garage door technician working on repairs"
-                className="w-full h-80 object-cover rounded-lg shadow-lg"
+                className="w-full h-full object-cover rounded-lg shadow-lg"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600/80 to-transparent rounded-lg"></div>
             </div>
@@ -52,7 +52,7 @@ const FAQSection = () => {
             <h2 id="faq" className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
               Have Any Questions?
             </h2>
-            
+
             <div className="space-y-4">
               {faqs.map((faq, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-sm border border-gray-200">

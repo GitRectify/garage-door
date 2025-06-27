@@ -5,27 +5,27 @@ const ServicesSection = () => {
   const services = [
     {
       title: "Garage Door Repair",
-      description: "Expert repair services for broken springs, cables, rollers, and opener issues.",
+      description: "We fix broken springs, worn-out rollers, snapped cables, and all types of hardware issues to restore full functionality to your garage door.",
       icon: "🔧"
     },
     {
       title: "New Garage Door Installation",
-      description: "Professional installation of residential and commercial garage doors.",
+      description: "Choose from a variety of modern, stylish doors and let our skilled team handle the professional installation for long-lasting performance.",
       icon: "🏠"
     },
     {
       title: "Garage Door Opener Services",
-      description: "Installation, repair, and maintenance of all garage door opener brands.",
+      description: "We repair and upgrade all major opener brands, ensuring smooth, quiet, and secure operation with the latest technology",
       icon: "⚡"
     },
     {
       title: "Spring Replacement",
-      description: "Safe and efficient replacement of torsion and extension springs.",
+      description: "Our team is ready 24/7 to respond quickly and resolve urgent garage door problems when you need immediate assistance.",
       icon: "🔄"
     },
     {
       title: "Preventive Maintenance",
-      description: "Regular maintenance to keep your garage door running smoothly.",
+      description: "Our team is ready 24/7 to respond quickly and resolve urgent garage door problems when you need immediate assistance.",
       icon: "🛠️"
     }
   ];
@@ -38,7 +38,7 @@ const ServicesSection = () => {
             Services We Offer
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            From emergency repairs to new installations, we provide comprehensive garage door services to meet all your needs.
+            We handle everything related to residential garage doors, including:
           </p>
         </div>
 

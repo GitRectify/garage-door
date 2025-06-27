@@ -14,8 +14,8 @@ const HeroSection = () => {
               <span className="text-blue-600"> Fixed Fast</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-              Professional garage door repair, installation, and maintenance services.
-              We provide fast, reliable solutions to keep your garage door running smoothly.
+              We believe in doing the job right no shortcuts, no gimmicks.
+              Our clients trust us for dependable service, honest communication, and results that speak for themselves.
             </p>
 
             {/* CTA Buttons */}
